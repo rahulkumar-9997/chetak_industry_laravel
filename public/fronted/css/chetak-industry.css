@@ -1,0 +1,177 @@
+
+@font-face {
+    font-family: Handel-Gothic-Regular;
+    src: url(../fonts/chetak-font/HandelGothicRegular.ttf) format('opentype');
+}
+.menu-area.sticky-menu .logo img {
+    width: 46%;
+    margin-top: -1px;
+    padding: 2px;
+    border-radius: none;
+    position: unset;
+}
+.chetak-industry-logo{
+    /*margin-left: 53px;*/
+}
+.header-cta{
+  padding: 16px 10px;
+  text-align: end;
+}
+
+.chetak-industry-logo .chetak-industry-li{
+    font-size: 34px;
+    /*font-weight: 600;*/
+    color: #224468;
+     font-family: 'Handel-Gothic-Regular', sans-serif;
+}
+
+
+.single-slider.slider-bg:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0 0 0 / 78%);
+    opacity: .5;
+}
+.chetak-industry-padding-b140{
+    padding-bottom: 140px;
+}
+#services .second-services-content .slider-btn a{
+    color: #4a6b8f;
+    font-size: 17px;
+}
+
+#services .s-single-services.active .second-services-content .slider-btn a{
+    color: #ffffff;
+}
+
+.about-area.bg-image{
+    background-image:url('../img/bg/about_aliment_bg.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.service-detail .images-box .column.chetak-industry-pro-img{
+    float: left;
+    padding: 0 20px 0 0;
+}
+
+
+
+
+.slick-prev.slick-arrow, .slick-next.slick-arrow {
+	z-index: 1;
+	width: 40px;
+	height: 40px;
+    background: #0b000075;
+    border-radius: 25px;
+}
+
+.slick-arrow:before {
+	font-size: 30px;
+}
+.slick-next {
+	right: 0;
+}
+.slick-prev {
+	left: 0;
+}
+
+.btn-wrap {
+	text-align: center;
+	width: 100%;
+}
+/* button {
+	background-color: #ddd;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	margin: 10px;
+	font-size: 18px;
+	font-weight: 600;
+	transition: all 0.5s;
+} */
+button.slick-disabled {
+	opacity: 0.6;
+}
+
+.slick-next, .slick-prev {
+    font-size: 0;
+    line-height: 0;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px\9;
+    -webkit-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: 0;
+    background: 0 0;
+}
+.slick-dots, .slick-next, .slick-prev {
+    position: absolute;
+    display: block;
+    padding: 0;
+}
+.slick-arrow:before {
+    font-size: 30px;
+}
+.slick-prev:before {
+    content: '←';
+}
+.slick-next:before, .slick-prev:before {
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #bf0d0d;
+}
+.slick-dots li button:before, .slick-next:before, .slick-prev:before {
+    font-family: slick;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-next:before, [dir=rtl] .slick-prev:before {
+    content: '→';
+}
+.slick-next:before, .slick-prev:before {
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #ffffff;
+}
+
+.contact-box-shadow{
+    border-style: solid;
+    border-width: 0px 0px 0px 3px;
+    border-color: #FFFFFF;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+    transition: background 0.3s,border 0.3s,border-radius 0.3s,box-shadow 0.3s;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 15px 18px 35px 11px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.single-contact-icon {
+    margin-right: 15px;
+}
+.single-contact-icon .fa {
+    color: #252525;
+    font-size: 14px;
+    margin-top: 7px;
+
+}
+.single-contact-info .desc-content {
+    font-size: 14px;
+    color: #595B6B;
+    
+    text-decoration: none;
+}
